@@ -1,0 +1,22 @@
+{
+  "name": "cloudbot-workflow",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pshingavi/cloudbot-workflow",
+  "authors": [
+    "pshingavi <preetams3@gmail.com>"
+  ],
+  "description": "Bower config for cloudbot",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "~2.1.4"
+  }
+}

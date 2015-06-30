@@ -1,0 +1,24 @@
+{
+  "name": "cloudbot-workflow",
+  "version": "1.0.0",
+  "description": "Cloudbot with workflow",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshingavi/cloudbot-workflow.git"
+  },
+  "author": "Preetam Shingavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pshingavi/cloudbot-workflow/issues"
+  },
+  "homepage": "https://github.com/pshingavi/cloudbot-workflow#readme",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-jshint": "^1.11.1",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-uglify": "^1.2.0"
+  }
+}
