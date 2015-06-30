@@ -10,6 +10,7 @@ Cloudbot (Angular driven web app demo) with Gulp, Bower and Browserify for app w
 1. Install the Bower components: `bower install`
 1. Run locally: 'gulp'
 1. Run build: 'gulp build'
+1. To clean the build: 'gulp clean'
 
 ## Take a look - Blog post
 
