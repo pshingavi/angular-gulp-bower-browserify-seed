@@ -1,5 +1,5 @@
-# cloudbot-workflow
-Cloudbot (Angular driven web app demo) with Gulp, Bower and Browserify for app workflow management 
+# AngularJS - workflow with Gulp, Bower, Browserify
+This is a small demo or a starter for AngularJS using workflow tools to automate the builds and dependencies of the web applicaiton.
 
 ## Quick Start
 
