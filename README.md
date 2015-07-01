@@ -1,5 +1,17 @@
 # AngularJS - workflow with Gulp, Bower, Browserify
-This is a small demo or a starter for AngularJS using workflow tools to automate the builds and dependencies of the web applicaiton.
+This is a starter demo for AngularJS using workflow tools to automate the builds and dependencies of the web applicaiton.
+
+
+[GULP](http://gulpjs.com/plugins/) - Javascript task runner, used to automate repetitive tasks (i.e., minifying, linting, testing, building, compiling) to simplify the build process.
+
+[BOWER](http://bower.io/) - Manage front-end dependencies and serve css/js etc from the downloaded repo configured.
+
+[BROWSERIFY](http://browserify.org/) - Also manages front-end dependencies (mainly js) and works with NPM 'require' calls for including dependencies instead of script includes in the HTML documents.
+
+Be sure to check [NPM](https://www.npmjs.com/) first before relying on Bower so you can take advantage of the simple require calls, via Browserify, which reduces code clutter and enables you to write modular, re-usable code.
+
+This example uses Bower to crack jQuery dependency (just to demonstrate the use of bower). Other dependencies like angular, angular-ui-router are taken care by NPM via Browserify require calls, which loads dependencies from node_modules installed.
+
 
 ## Quick Start
 
