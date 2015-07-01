@@ -10,8 +10,13 @@
         </section>
         <!-- scripts -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/angular/angular.js"></script>
-        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-        <script src="app.js"></script>
+        <!--Angular taken care by browserify see app.js
+
+        Why don't we replace all of our Bower components? It's good to use both Bower and Browserify in case NPM does not have a certain dependency that Bower may have. The point of this example is to show you how to use both.
+        
+        -->
+        <!--script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script-->
+        <script src="app-bundled.js"></script>
     </body>
 </html>

@@ -1,6 +1,11 @@
 (function () {
 	'use strict';
 
+	require('angular');
+	require('angular-ui-router');
+	var loginCtrl = require('./components/login/login.js');
+	var XDCtrl = require('./components/xdcontrollers/xdcontrollers.js');
+	
 	var app = angular.module('cloudbot', ['ui.router']);
 
 	app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
@@ -19,13 +24,8 @@
 		$urlRouterProvider.otherwise("/login");
 		}]);
 
-	app.controller("LoginController", ['$scope', '$state', function($scope, $state){
-  		$scope.state = $state;
-  		console.log("Tab active : "+ $scope.state.current.name);
-	}]);
+	// Load the controllers
+	app.controller("LoginController", ['$scope', '$state', loginCtrl]);
+	app.controller("XDController", ['$scope', '$state', XDCtrl]);
 
-	app.controller("XDController", ['$scope', '$state', function($scope, $state){
-  		$scope.state = $state;
-  		console.log("Tab active : "+ $scope.state.current.name);
-	}]);
 }());
