@@ -1,5 +1,6 @@
 node_modules/
 app/bower_components/
+app/app_bundled.js
 npm-debug.log
 .DS_Store
 dist

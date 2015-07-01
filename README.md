@@ -21,8 +21,19 @@ This example uses Bower to crack jQuery dependency (just to demonstrate the use 
 1. Install the local requirements: `npm install`
 1. Install the Bower components: `bower install`
 1. Run locally: `gulp`
+  2. browserify : angular dependencies
+  2. jshint : js validations
+  2. connect to local server at port defined in the log (here : 8888)
 1. Run build: `gulp build`
+  2. jshint : js validations
+  2. css-minify : minify css and deploy to build folder
+  2. browserify and js-minify : process angular dependencies, concat and minify to single js and copy to build folder
+  2. copy-html-files : Copy HTML partial / non-partial files to deploy folder
+  2. copy-bower-components : Copy bower_components dependency files to deploy folder
+  2. connect to local server at port defined in the log (here : 9999) with app path pointing to build folder
 1. To clean the build: `gulp clean`
+  2. Delete the deploy folder
+  2. Delete the minified single js from app folder created from Run build (above)
 
 ## Take a look - Blog post
 

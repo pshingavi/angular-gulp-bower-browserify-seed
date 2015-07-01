@@ -37,6 +37,7 @@ gulp.task('default', [ 'browserify-modules', 'js-check', 'connect']);
 
 // Task to start server on build folder configured
 gulp.task('build', ['js-check', 'css-minify', 'browserify-modules-build-minify', 'copy-html-files', 'copy-bower-components', 'connect-build'])
+
 //'js-minify',
 
 /*
@@ -52,7 +53,7 @@ gulp.task('connect', function () {
 });
 
 gulp.task('connect-build', function () {
-	connect.server({
+ 	connect.server({
 		root: buildFolder,
 		port: 9999
 	});
