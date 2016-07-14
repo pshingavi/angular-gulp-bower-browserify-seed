@@ -1,5 +1,5 @@
 # AngularJS - workflow with Gulp, Bower, Browserify
-This is a starter demo for AngularJS using workflow tools to automate the builds and dependencies of the web applicaiton.
+This is a starter demo for AngularJS using workflow tools to automate the builds and dependencies of the front-end web applicaiton.
 
 
 [GULP](http://gulpjs.com/plugins/) - Javascript task runner, used to automate repetitive tasks (i.e., minifying, linting, testing, building, compiling) to simplify the build process.
